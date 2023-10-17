@@ -1,0 +1,281 @@
+/* ----------------------------debut de page------------------------------------ */
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+#debut{
+    display: flex;
+    gap: 1%;
+
+}
+.imgdebut{width: 300px;
+
+}
+.recherche{
+   width: 60%;
+   display: flex;
+   margin-top: 2%;
+
+}
+.recherche input{
+    width: 90%;
+}
+.infos{
+    gap: 3%;
+    display: flex;
+
+}
+.infos a{
+    margin-top: 8%;
+}
+/* -------------------------------barre de navigation-------------------------------- */
+#menu{
+    display: flex;
+    gap: 6%;
+    background-color: yellowgreen;
+    height: 30px;
+
+
+}
+#menu li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+
+}
+#menu a{
+    text-decoration: none;
+    color:white ;
+    background-color: yellowgreen;
+    text-wrap: nowrap;
+
+}
+#menu a:hover{
+    background-color: white;
+    color: yellowgreen;
+}
+.imgacceuil{
+    width: 100%;
+}
+/* ---------------------------les produits------------------------------------- */
+.produit{
+    width: 500px;
+    height: 600px;
+}
+.secproduit{
+    display: flex;
+}
+.secproduit p{
+    font-size: 40px;
+    text-align: left;
+}
+main{
+    display: flex;
+    margin-top: 20px;
+}
+#left {
+    width: auto;
+    display: flex;
+    border: none;
+}
+#left h4{
+    text-align: center;
+}
+#right{
+    width: 100%;
+    margin-bottom: 0;
+}
+.top{
+    display: flex;
+    height: 50px;
+    gap: 240px;
+    margin-bottom: 80px;
+    border-bottom: 20px solid rgb(245, 242, 242);
+}
+.top div{
+  display: flex;
+  
+}
+.buttum{
+    display: flex;
+   
+   
+}
+.buttum a{
+    width: 100%;
+    margin:0;
+
+}
+.buttum a img{
+    width: 100%;
+}
+.buttum a {
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: rgb(250, 252, 244);
+}
+footer section div{
+    display: flex;
+   
+}
+#gauche{
+    margin-top: 40px;
+    margin-left: 200px;
+   
+}
+/* ------------------------resposive------------------ */
+/* ------------------pour smarthpnone------------------------------------- */
+@media only screen and (max-width:767px){
+    #debut {
+        display: flex;
+        gap: 1%;
+        flex-wrap: wrap;
+    }
+    .imgdebut {
+        width: 193px;
+    }
+    .recherche {
+        display: flex;
+        margin-top: 2%;
+        width: 45%;
+        height: 25px;
+    }
+    .infos {
+        gap: 29px;
+        display: flex;
+    }
+    #menu {
+        display: flex;
+        gap: 6%;
+        background-color: yellowgreen;
+        height: 60px;
+        width: 99%;
+        flex-wrap: wrap;
+        padding-inline-start: 0;
+    }
+    .imgacceuil {
+        width: 99%;
+    }
+    .produit {
+        width: 67%;
+        height: auto;
+    }
+    main {
+        display: inline;
+        margin-top: 20px;
+    }
+    #left {
+        display: flex;
+        border: none;
+    }
+    /* ------------------------------ */
+    .top {
+        display: flex;
+        height: 55px;
+        gap: 0px;
+        margin-bottom: 0px;
+        border-bottom: 20px solid rgb(245, 242, 242);
+    }
+    
+    footer {
+        display: inline-block;
+        background-color: rgb(250, 252, 244);
+        width: 100%;
+    }
+    #gauche {
+        margin: 0;
+        
+    }
+    .secproduit {
+        display: flex;
+        flex-direction: column;
+    }
+    .secproduit p{
+        font-size: 30px;
+    }
+  
+}
+/* -----------------------pour tablette--------------------------------- */
+@media screen and (min-width:768px) and (max-width:1023px){
+    #menu {
+        display: flex;
+        gap: 2%;
+        background-color: yellowgreen;
+        height: 30px;
+    }
+    #left {
+        width: auto;
+        display: inline-block;
+        border: none;
+    }
+    .top {
+        display: flex;
+        height: 50px;
+        gap: 92px;
+        margin-bottom: 80px;
+        border-bottom: 20px solid rgb(245, 242, 242);
+    }
+    .secproduit {
+        display: flex;
+        flex-direction: column;
+    }
+    .secproduit p{
+        font-size: 40px;
+    }
+    .produit {
+        width: 500px;
+        height: 500px;
+    }
+    
+    
+}
+ /* ------------------------pour desktop------------------------- */
+ @media screen and (min-width:1024px){
+    
+    #left {
+        width: fit-content;
+        display: inline-block;
+        border: none;
+        margin-right: none;
+    }
+    main {
+        display: flex;
+        margin:0;
+
+    }
+    body {
+        padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    }
+    .produit {
+        width: 34%;
+        height: 438px;
+    }
+    .imgacceuil {
+        width: 100%;
+    }
+    #menu {
+        display: flex;
+        gap: 4%;
+        background-color: yellowgreen;
+        height: 30px;
+    }
+    .top {
+        justify-content: center;
+        display: flex;
+        height: 50px;
+        gap: 229px;
+        margin-bottom: 80px;
+        border-bottom: 20px solid rgb(245, 242, 242);
+    }
+
+}
