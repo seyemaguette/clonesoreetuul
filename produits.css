@@ -1,0 +1,23 @@
+body{
+    display: flexbox;
+    justify-content: left;
+}
+img{
+   width: 30%;
+   
+}
+p{
+   font-size: larger;
+   
+}
+@media only screen and (max-width:767px){
+   p {
+      font-size: 30px;
+      width: fit-content;
+      text-align: justify;
+  }
+  img {
+   width: 75%;
+}
+   
+}
