@@ -201,6 +201,9 @@ footer section div{
     .secproduit p{
         font-size: 30px;
     }
+    .commande{
+        width: 30px;
+    }
   
 }
 /* -----------------------pour tablette--------------------------------- */
