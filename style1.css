@@ -189,7 +189,7 @@ footer section div{
        
         display: flex;
         height: 55px;
-        justify-content: space-evenly;
+        gap: 0px;
         margin-bottom: 0px;
         border-bottom: 20px solid rgb(245, 242, 242);
     }
